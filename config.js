@@ -31,7 +31,7 @@ module.exports = {
   language: "en",
   embedColor: "00fbff",
   errorLog: "",
-
+  prefix: "!", // Aquí defines el prefijo para los comandos
 
   sponsor: {
     status: true,

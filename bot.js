@@ -75,7 +75,7 @@ fs.readdir("./events/player", (_err, files) => {
   });
 });
 
-client.commands = [];
+client.commands = [/];
 fs.readdir(config.commandsDir, (err, files) => {
   if (err) throw err;
   files.forEach(async (f) => {
